@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zews123.github.io/the-laundromat-book/sitemap.xml
