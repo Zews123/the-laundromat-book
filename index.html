@@ -736,6 +736,27 @@
             z-index: 50;
         }
         .scroll-top.visible { opacity: 1; visibility: visible; }
+
+        /* Nav CTA */
+        .cta-button--nav {
+            padding: 8px 18px;
+            font-size: 0.9rem;
+            border-radius: 25px;
+        }
+
+        /* Final CTA large */
+        .cta-button--large {
+            font-size: 1.4rem;
+            padding: 25px 60px;
+        }
+        .final-cta .also-available {
+            margin-top: 30px;
+            font-size: 1rem;
+            color: var(--text-gray);
+        }
+        .final-cta .also-available a {
+            color: var(--accent-gold);
+        }
     </style>
 
     <!-- Schema.org Structured Data: Book -->
@@ -885,7 +906,7 @@
                 <li><a href="#revelations">Revelations</a></li>
                 <li><a href="#reviews">Reviews</a></li>
                 <li><a href="#faq">FAQ</a></li>
-                <li><a href="https://zews123.github.io/michael-rodriguez-books/books/The_Laundromat" class="cta-button--secondary" style="padding:8px 18px;font-size:0.9rem;border-radius:25px;">Get The Book</a></li>
+                <li><a href="https://zews123.github.io/michael-rodriguez-books/books/The_Laundromat" class="cta-button--secondary cta-button--nav">Get The Book</a></li>
             </ul>
         </div>
     </nav>
@@ -1186,9 +1207,9 @@
                 <h2>Ready to See Behind the Curtain?</h2>
                 <p>Join thousands of readers who now understand how the global financial system really works—and how it's rigged against ordinary people.</p>
 
-                <a href="https://zews123.github.io/michael-rodriguez-books/books/The_Laundromat" class="cta-button" style="font-size: 1.4rem; padding: 25px 60px;" role="button">Get The Book Now</a>
+                <a href="https://zews123.github.io/michael-rodriguez-books/books/The_Laundromat" class="cta-button cta-button--large" role="button">Get The Book Now</a>
 
-                <p style="margin-top: 30px; font-size: 1rem; color: var(--text-gray);">Also available: <a href="https://zews123.github.io/michael-rodriguez-books/" style="color: var(--accent-gold);">All Books by Michael Rodriguez</a></p>
+                <p class="also-available">Also available: <a href="https://zews123.github.io/michael-rodriguez-books/">All Books by Michael Rodriguez</a></p>
             </div>
         </section>
     </main>
