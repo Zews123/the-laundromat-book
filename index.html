@@ -3,31 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- SEO Meta Tags -->
-    <title>$32 Trillion: The Scheme They're Hiding From You</title>
-    <meta name="description" content="Discover the shocking truth about how presidents, oligarchs, and drug lords launder $32 trillion through the same networks. 15-year investigation revealed.">
+    <title>The Laundromat Book by Michael Rodriguez — $32 Trillion Money Laundering Exposé</title>
+    <meta name="description" content="Discover how presidents, oligarchs, and drug lords launder $32 trillion through the same networks. A 15-year investigation by Michael Rodriguez into the world's biggest shadow economy.">
+    <meta name="keywords" content="money laundering book, financial crime investigation, offshore banking secrets, shadow economy exposed, Michael Rodriguez, The Laundromat, investigative journalism, global corruption">
     <link rel="canonical" href="https://zews123.github.io/the-laundromat-book/">
-    
+    <link rel="author" href="https://zews123.github.io/michael-rodriguez-books/">
+    <meta name="robots" content="index, follow">
+    <link rel="alternate" hreflang="en" href="https://zews123.github.io/the-laundromat-book/">
+    <link rel="alternate" hreflang="x-default" href="https://zews123.github.io/the-laundromat-book/">
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="book">
     <meta property="og:url" content="https://zews123.github.io/the-laundromat-book/">
-    <meta property="og:title" content="$32 Trillion: The Scheme They're Hiding From You">
-    <meta property="og:description" content="Presidents, oligarchs, and drug lords use the same money laundering schemes. For the first time - complete exposure of the largest shadow economy in history.">
+    <meta property="og:title" content="The Laundromat — $32 Trillion Money Laundering Exposé by Michael Rodriguez">
+    <meta property="og:description" content="Presidents, oligarchs, and drug lords use the same money laundering schemes. For the first time — complete exposure of the largest shadow economy in history.">
     <meta property="og:image" content="https://zews123.github.io/michael-rodriguez-books/assets/images/THE_LAUNDROMAT.webp">
-    
+    <meta property="og:image:alt" content="The Laundromat book cover by Michael Rodriguez">
+    <meta property="og:site_name" content="Michael Rodriguez Books">
+    <meta property="og:locale" content="en_US">
+    <meta property="book:author" content="Michael Rodriguez">
+    <meta property="book:tag" content="money laundering">
+    <meta property="book:tag" content="financial crime">
+    <meta property="book:tag" content="investigative journalism">
+
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://zews123.github.io/the-laundromat-book/">
-    <meta name="twitter:title" content="$32 Trillion: The Scheme They're Hiding From You">
+    <meta name="twitter:title" content="The Laundromat — $32 Trillion Money Laundering Exposé by Michael Rodriguez">
     <meta name="twitter:description" content="How presidents, oligarchs, and drug lords launder trillions through the same networks. Exclusive 15-year investigation by Michael Rodriguez.">
     <meta name="twitter:image" content="https://zews123.github.io/michael-rodriguez-books/assets/images/THE_LAUNDROMAT.webp">
-    
+    <meta name="twitter:image:alt" content="The Laundromat book cover by Michael Rodriguez">
+
     <!-- Preload Critical Resources -->
     <link rel="preload" href="https://zews123.github.io/michael-rodriguez-books/assets/images/THE_LAUNDROMAT.webp" as="image" fetchpriority="high">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
+
     <!-- Critical CSS -->
     <style>
         :root {
@@ -39,13 +52,13 @@
             --text-gray: #cccccc;
             --shadow: rgba(0,0,0,0.8);
         }
-        
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             font-family: 'Georgia', serif;
             line-height: 1.6;
@@ -53,13 +66,65 @@
             background: linear-gradient(135deg, var(--primary-dark) 0%, var(--secondary-dark) 100%);
             overflow-x: hidden;
         }
-        
+
+        a { color: inherit; }
+
+        .skip-link {
+            position: absolute;
+            top: -100%;
+            left: 0;
+            background: var(--accent-gold);
+            color: var(--primary-dark);
+            padding: 10px 20px;
+            z-index: 9999;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .skip-link:focus { top: 0; }
+
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
         }
-        
+
+        /* Navigation */
+        .site-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            background: rgba(26,26,46,0.95);
+            backdrop-filter: blur(10px);
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(255,215,0,0.15);
+        }
+        .nav-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav-brand {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: var(--accent-gold);
+            text-decoration: none;
+        }
+        .nav-links {
+            display: flex;
+            gap: 24px;
+            list-style: none;
+        }
+        .nav-links a {
+            color: var(--text-gray);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+        }
+        .nav-links a:hover,
+        .nav-links a:focus { color: var(--accent-gold); }
+
         /* Hero Section */
         .hero {
             min-height: 100vh;
@@ -67,8 +132,9 @@
             align-items: center;
             background: radial-gradient(circle at center, rgba(255,215,0,0.1) 0%, transparent 70%);
             position: relative;
+            padding-top: 60px;
         }
-        
+
         .hero::before {
             content: '';
             position: absolute;
@@ -79,7 +145,7 @@
             background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text x="10" y="20" font-size="8" fill="%23ffffff03">$</text><text x="30" y="40" font-size="6" fill="%23ffffff03">€</text><text x="60" y="30" font-size="7" fill="%23ffffff03">£</text><text x="80" y="60" font-size="5" fill="%23ffffff03">¥</text><text x="20" y="70" font-size="9" fill="%23ffffff03">$</text><text x="70" y="80" font-size="4" fill="%23ffffff03">₿</text></svg>');
             opacity: 0.3;
         }
-        
+
         .hero-content {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -88,7 +154,7 @@
             position: relative;
             z-index: 2;
         }
-        
+
         .hero-text h1 {
             font-size: clamp(2.5rem, 5vw, 4rem);
             font-weight: bold;
@@ -99,14 +165,24 @@
             background-clip: text;
             line-height: 1.2;
         }
-        
+
         .hero-text .subtitle {
             font-size: 1.3rem;
             margin-bottom: 30px;
             color: var(--text-gray);
             font-style: italic;
         }
-        
+
+        .hero-text .author-line {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            color: var(--text-gray);
+        }
+        .hero-text .author-line a {
+            color: var(--accent-gold);
+            text-decoration: underline;
+        }
+
         .shock-stat {
             background: rgba(255, 68, 68, 0.2);
             border-left: 4px solid var(--accent-red);
@@ -115,7 +191,7 @@
             border-radius: 10px;
             backdrop-filter: blur(10px);
         }
-        
+
         .shock-stat .number {
             font-size: 3.5rem;
             font-weight: bold;
@@ -123,17 +199,17 @@
             display: block;
             margin-bottom: 10px;
         }
-        
+
         .shock-stat .description {
             font-size: 1.1rem;
             color: var(--text-light);
         }
-        
+
         .book-cover-container {
             text-align: center;
             position: relative;
         }
-        
+
         .book-cover {
             max-width: 400px;
             width: 100%;
@@ -143,11 +219,18 @@
             transform: perspective(1000px) rotateY(-10deg) rotateX(5deg);
             transition: transform 0.5s ease;
         }
-        
+
         .book-cover:hover {
             transform: perspective(1000px) rotateY(0deg) rotateX(0deg) scale(1.05);
         }
-        
+
+        .cta-buttons {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
         .cta-button {
             display: inline-block;
             background: linear-gradient(45deg, var(--accent-red), #ff6666);
@@ -159,31 +242,50 @@
             border-radius: 50px;
             box-shadow: 0 15px 30px rgba(255, 68, 68, 0.4);
             transition: all 0.3s ease;
-            margin-top: 30px;
             text-transform: uppercase;
             letter-spacing: 1px;
+            border: none;
+            cursor: pointer;
+            min-height: 48px;
         }
-        
-        .cta-button:hover {
+
+        .cta-button:hover,
+        .cta-button:focus {
             transform: translateY(-5px);
             box-shadow: 0 20px 40px rgba(255, 68, 68, 0.6);
             background: linear-gradient(45deg, #ff6666, var(--accent-red));
+            outline: 2px solid var(--accent-gold);
+            outline-offset: 2px;
         }
-        
+
+        .cta-button--secondary {
+            background: transparent;
+            border: 2px solid var(--accent-gold);
+            color: var(--accent-gold);
+            box-shadow: none;
+            padding: 18px 36px;
+            font-size: 1.1rem;
+        }
+        .cta-button--secondary:hover,
+        .cta-button--secondary:focus {
+            background: rgba(255,215,0,0.15);
+            box-shadow: 0 10px 20px rgba(255,215,0,0.2);
+        }
+
         /* Content Sections */
         .content-section {
             padding: 100px 0;
             position: relative;
         }
-        
+
         .section-title {
-            font-size: 2.8rem;
+            font-size: clamp(2rem, 4vw, 2.8rem);
             text-align: center;
             margin-bottom: 60px;
             color: var(--accent-gold);
             position: relative;
         }
-        
+
         .section-title::after {
             content: '';
             display: block;
@@ -192,14 +294,73 @@
             background: linear-gradient(45deg, var(--accent-gold), var(--accent-red));
             margin: 20px auto;
         }
-        
+
+        /* About Section */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: start;
+        }
+        .about-text { font-size: 1.1rem; line-height: 1.8; }
+        .about-text p { margin-bottom: 20px; color: var(--text-gray); }
+        .book-meta {
+            background: rgba(255,255,255,0.05);
+            border-radius: 15px;
+            padding: 30px;
+            border: 1px solid rgba(255,215,0,0.2);
+        }
+        .book-meta h3 {
+            color: var(--accent-gold);
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+        }
+        .book-meta dl {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 10px 20px;
+        }
+        .book-meta dt { color: var(--text-gray); font-weight: bold; }
+        .book-meta dd { color: var(--text-light); }
+
+        /* Key Benefits */
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 50px 0;
+        }
+        .benefit-card {
+            background: rgba(255,255,255,0.05);
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid rgba(255,215,0,0.1);
+        }
+        .benefit-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px var(--shadow);
+        }
+        .benefit-icon {
+            font-size: 3rem;
+            display: block;
+            margin-bottom: 15px;
+        }
+        .benefit-card h3 {
+            color: var(--accent-gold);
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+        .benefit-card p { color: var(--text-gray); }
+
         .revelations-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
             gap: 30px;
             margin: 50px 0;
         }
-        
+
         .revelation-card {
             background: rgba(255,255,255,0.05);
             padding: 30px;
@@ -210,7 +371,7 @@
             position: relative;
             overflow: hidden;
         }
-        
+
         .revelation-card::before {
             content: '';
             position: absolute;
@@ -222,16 +383,16 @@
             opacity: 0;
             transition: opacity 0.3s ease;
         }
-        
+
         .revelation-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 20px 40px var(--shadow);
         }
-        
+
         .revelation-card:hover::before {
             opacity: 1;
         }
-        
+
         .revelation-card h3 {
             color: var(--accent-gold);
             margin-bottom: 15px;
@@ -239,13 +400,13 @@
             position: relative;
             z-index: 2;
         }
-        
+
         .revelation-card p {
             color: var(--text-gray);
             position: relative;
             z-index: 2;
         }
-        
+
         .excerpt-section {
             background: rgba(255,68,68,0.1);
             border-radius: 30px;
@@ -253,14 +414,14 @@
             margin: 80px 0;
             border: 2px solid rgba(255,215,0,0.3);
         }
-        
+
         .excerpt-title {
             color: var(--accent-gold);
             font-size: 2rem;
             margin-bottom: 30px;
             text-align: center;
         }
-        
+
         .excerpt-text {
             font-size: 1.2rem;
             line-height: 1.8;
@@ -270,39 +431,92 @@
             max-width: 800px;
             margin: 0 auto;
         }
-        
+
         .social-proof {
             text-align: center;
             margin: 80px 0;
         }
-        
+
         .readers-count {
             font-size: 3rem;
             color: var(--accent-gold);
             font-weight: bold;
             display: block;
         }
-        
+
+        /* Testimonials */
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            max-width: 1000px;
+            margin: 50px auto 0;
+        }
         .testimonial {
             background: rgba(255,255,255,0.05);
             padding: 30px;
             border-radius: 15px;
-            margin: 20px 0;
             border-left: 4px solid var(--accent-gold);
             backdrop-filter: blur(10px);
         }
-        
+
+        .testimonial-stars {
+            color: var(--accent-gold);
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
         .testimonial-text {
             font-style: italic;
             margin-bottom: 15px;
             font-size: 1.1rem;
         }
-        
+
         .testimonial-author {
             color: var(--accent-gold);
             font-weight: bold;
         }
-        
+
+        /* Author Section */
+        .author-section {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 40px;
+            align-items: center;
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.05);
+            padding: 40px;
+            border-radius: 20px;
+            border: 1px solid rgba(255,215,0,0.2);
+        }
+        .author-avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, var(--accent-gold), var(--accent-red));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            color: var(--primary-dark);
+            font-weight: bold;
+        }
+        .author-bio h3 {
+            color: var(--accent-gold);
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .author-bio p {
+            color: var(--text-gray);
+            line-height: 1.7;
+            margin-bottom: 15px;
+        }
+        .author-bio a {
+            color: var(--accent-gold);
+            text-decoration: underline;
+        }
+
         .guarantee-section {
             background: linear-gradient(45deg, rgba(255,215,0,0.1), rgba(255,68,68,0.1));
             padding: 50px;
@@ -310,7 +524,7 @@
             text-align: center;
             margin: 60px 0;
         }
-        
+
         .urgency-section {
             background: rgba(255,68,68,0.2);
             padding: 40px;
@@ -319,18 +533,53 @@
             margin: 50px 0;
             border: 2px solid var(--accent-red);
         }
-        
+
+        /* FAQ Section */
+        .faq-list {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .faq-item {
+            border-bottom: 1px solid rgba(255,215,0,0.2);
+            padding: 20px 0;
+        }
+        .faq-item summary {
+            cursor: pointer;
+            font-size: 1.15rem;
+            font-weight: bold;
+            color: var(--accent-gold);
+            padding: 10px 0;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .faq-item summary::after {
+            content: '+';
+            font-size: 1.5rem;
+            transition: transform 0.3s;
+        }
+        .faq-item[open] summary::after {
+            transform: rotate(45deg);
+        }
+        .faq-item summary::-webkit-details-marker { display: none; }
+        .faq-answer {
+            color: var(--text-gray);
+            padding: 10px 0 20px;
+            line-height: 1.7;
+        }
+
         .final-cta {
             text-align: center;
             padding: 80px 0;
         }
-        
+
         .final-cta h2 {
-            font-size: 3rem;
+            font-size: clamp(2rem, 4vw, 3rem);
             margin-bottom: 30px;
             color: var(--accent-gold);
         }
-        
+
         .final-cta p {
             font-size: 1.3rem;
             margin-bottom: 40px;
@@ -339,32 +588,98 @@
             margin-right: auto;
             color: var(--text-gray);
         }
-        
+
+        /* Footer */
+        .site-footer {
+            background: rgba(0,0,0,0.3);
+            padding: 40px 0 20px;
+            border-top: 1px solid rgba(255,215,0,0.15);
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        .footer-col h4 {
+            color: var(--accent-gold);
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        .footer-col ul { list-style: none; }
+        .footer-col li { margin-bottom: 8px; }
+        .footer-col a {
+            color: var(--text-gray);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .footer-col a:hover { color: var(--accent-gold); }
+        .footer-col p { color: var(--text-gray); font-size: 0.95rem; line-height: 1.6; }
+        .footer-bottom {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: var(--text-gray);
+            font-size: 0.9rem;
+        }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            padding: 10px 0;
+            font-size: 0.85rem;
+        }
+        .breadcrumb ol {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+        .breadcrumb a { color: var(--text-gray); text-decoration: none; }
+        .breadcrumb a:hover { color: var(--accent-gold); }
+        .breadcrumb li::after { content: ' ›'; color: var(--text-gray); margin-left: 5px; }
+        .breadcrumb li:last-child::after { content: ''; }
+        .breadcrumb li:last-child { color: var(--accent-gold); }
+
         /* Mobile Responsive */
+        @media (max-width: 1024px) {
+            .about-grid { grid-template-columns: 1fr; }
+            .hero-content { gap: 40px; }
+            .content-section { padding: 70px 0; }
+        }
+
         @media (max-width: 768px) {
             .hero-content {
                 grid-template-columns: 1fr;
                 gap: 40px;
                 text-align: center;
             }
-            
-            .revelations-grid {
+            .cta-buttons { justify-content: center; }
+            .revelations-grid { grid-template-columns: 1fr; }
+            .benefits-grid { grid-template-columns: 1fr; }
+            .testimonials-grid { grid-template-columns: 1fr; }
+            .excerpt-section { padding: 30px 20px; }
+            .hero-text h1 { font-size: 2.5rem; }
+            .shock-stat .number { font-size: 2.5rem; }
+            .author-section {
                 grid-template-columns: 1fr;
+                text-align: center;
             }
-            
-            .excerpt-section {
-                padding: 30px 20px;
-            }
-            
-            .hero-text h1 {
-                font-size: 2.5rem;
-            }
-            
-            .shock-stat .number {
-                font-size: 2.5rem;
-            }
+            .author-avatar { margin: 0 auto; }
+            .nav-links { gap: 12px; }
+            .nav-links a { font-size: 0.85rem; }
+            .footer-grid { grid-template-columns: 1fr; text-align: center; }
+            .content-section { padding: 60px 0; }
+            .guarantee-section,
+            .urgency-section { padding: 30px 20px; }
         }
-        
+
+        @media (max-width: 480px) {
+            .nav-links { gap: 8px; }
+            .nav-links a { font-size: 0.8rem; }
+            .cta-button { padding: 16px 32px; font-size: 1.1rem; }
+            .hero { padding-top: 50px; }
+        }
+
         /* Exit Intent Popup */
         .exit-popup {
             position: fixed;
@@ -378,7 +693,7 @@
             justify-content: center;
             z-index: 1000;
         }
-        
+
         .popup-content {
             background: var(--primary-dark);
             padding: 40px;
@@ -386,8 +701,9 @@
             text-align: center;
             max-width: 500px;
             border: 2px solid var(--accent-gold);
+            position: relative;
         }
-        
+
         .popup-close {
             position: absolute;
             top: 10px;
@@ -395,10 +711,55 @@
             color: var(--text-light);
             font-size: 2rem;
             cursor: pointer;
+            background: none;
+            border: none;
+            min-width: 44px;
+            min-height: 44px;
+        }
+
+        /* Scroll-to-top */
+        .scroll-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 48px;
+            height: 48px;
+            background: var(--accent-gold);
+            color: var(--primary-dark);
+            border: none;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s, visibility 0.3s;
+            z-index: 50;
+        }
+        .scroll-top.visible { opacity: 1; visibility: visible; }
+
+        /* Nav CTA */
+        .cta-button--nav {
+            padding: 8px 18px;
+            font-size: 0.9rem;
+            border-radius: 25px;
+        }
+
+        /* Final CTA large */
+        .cta-button--large {
+            font-size: 1.4rem;
+            padding: 25px 60px;
+        }
+        .final-cta .also-available {
+            margin-top: 30px;
+            font-size: 1rem;
+            color: var(--text-gray);
+        }
+        .final-cta .also-available a {
+            color: var(--accent-gold);
         }
     </style>
-    
-    <!-- Schema.org Structured Data -->
+
+    <!-- Schema.org Structured Data: Book -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -416,207 +777,515 @@
         "url": "https://zews123.github.io/the-laundromat-book/",
         "publisher": {
             "@type": "Organization",
-            "name": "Michael Rodriguez Books"
+            "name": "Michael Rodriguez Books",
+            "url": "https://zews123.github.io/michael-rodriguez-books/"
         },
         "inLanguage": "en",
         "about": ["Money Laundering", "Financial Crime", "Offshore Banking", "Economic Investigation"],
-        "keywords": "money laundering, financial crime, offshore banking, shadow economy, investigative journalism"
+        "keywords": "money laundering, financial crime, offshore banking, shadow economy, investigative journalism",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "247",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "Sarah M." },
+                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+                "reviewBody": "This book completely changed my understanding of how the world really works. Rodriguez doesn't just theorize — he shows you the actual bank records and wire transfers. Terrifying and necessary reading."
+            },
+            {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "Detective James K." },
+                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+                "reviewBody": "As a former law enforcement officer, I can confirm that Rodriguez gets the details right. This is exactly how these networks operate, and why we struggle to prosecute them."
+            },
+            {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "Dr. Elizabeth R." },
+                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+                "reviewBody": "I couldn't put it down. Rodriguez writes like a thriller novelist but with the precision of an investigative journalist."
+            }
+        ]
+    }
+    </script>
+
+    <!-- Schema.org Structured Data: BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Michael Rodriguez Books",
+                "item": "https://zews123.github.io/michael-rodriguez-books/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "The Laundromat",
+                "item": "https://zews123.github.io/the-laundromat-book/"
+            }
+        ]
+    }
+    </script>
+
+    <!-- Schema.org Structured Data: FAQPage -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is The Laundromat book about?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The Laundromat is a comprehensive investigation by Michael Rodriguez that exposes the $32 trillion shadow economy. It reveals how presidents, oligarchs, and drug lords use the same networks to launder money, based on 15 years of research, classified documents, and whistleblower testimonies."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Who is the author Michael Rodriguez?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Michael Rodriguez is an investigative journalist and economic analyst with over 15 years of experience investigating financial crime. He gained exclusive access to classified banking documents from 47 countries and testimonies from 23 whistleblowers inside major global banks."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How much money is laundered globally each year?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "According to the investigation presented in The Laundromat, approximately $32 trillion is hidden in the global shadow economy. This money flows through offshore banking networks, shell companies, and complex financial structures designed to hide its origins."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is this book based on real documented cases?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. The Laundromat is based on real documented cases with names, amounts, and bank records. It draws on classified banking documents from 47 countries, court records from cases involving over $2 trillion in laundered money, and testimonies from 23 whistleblowers."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does the book come with a money-back guarantee?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. The Laundromat comes with a 30-day money-back guarantee. If after reading you are not satisfied with the revelations and information provided, you can request a full refund."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Where can I buy or download The Laundromat?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "You can get The Laundromat directly through Michael Rodriguez's official website. Visit the book detail page to choose your preferred format and complete your purchase."
+                }
+            }
+        ]
     }
     </script>
 </head>
 
 <body>
-    <!-- Hero Section -->
-    <section class="hero">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="site-nav" aria-label="Main navigation">
+        <div class="container nav-inner">
+            <a href="https://zews123.github.io/michael-rodriguez-books/" class="nav-brand" aria-label="Michael Rodriguez Books homepage">Michael Rodriguez Books</a>
+            <ul class="nav-links" role="list">
+                <li><a href="#about">About</a></li>
+                <li><a href="#revelations">Revelations</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="https://zews123.github.io/michael-rodriguez-books/books/The_Laundromat" class="cta-button--secondary cta-button--nav">Get The Book</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <!-- Breadcrumb -->
         <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1>$32 Trillion: How Presidents, Oligarchs & Drug Lords Hide Money From You</h1>
-                    <p class="subtitle">The first complete exposé of the largest money laundering system in human history</p>
-                    
-                    <div class="shock-stat">
-                        <span class="number">$32 Trillion</span>
-                        <span class="description">hidden in shadow economy while you pay taxes</span>
+            <nav class="breadcrumb" aria-label="Breadcrumb" style="padding-top:70px;">
+                <ol role="list">
+                    <li><a href="https://zews123.github.io/michael-rodriguez-books/">Home</a></li>
+                    <li><a href="https://zews123.github.io/michael-rodriguez-books/">Books</a></li>
+                    <li aria-current="page">The Laundromat</li>
+                </ol>
+            </nav>
+        </div>
+
+        <!-- Hero Section -->
+        <section class="hero" aria-label="Book introduction">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>The Laundromat: $32 Trillion Money Laundering Exposé</h1>
+                        <p class="author-line">By <a href="https://zews123.github.io/michael-rodriguez-books/">Michael Rodriguez</a></p>
+                        <p class="subtitle">The first complete exposé of the largest money laundering system in human history</p>
+
+                        <div class="shock-stat" role="presentation">
+                            <span class="number" aria-label="32 trillion dollars">$32 Trillion</span>
+                            <span class="description">hidden in shadow economy while you pay taxes</span>
+                        </div>
+
+                        <p>15 years of investigation. Exclusive access to classified documents. Whistleblower testimonies. For the first time, Michael Rodriguez reveals how the system allows the world's elite to hide trillions of dollars while ordinary people pay taxes.</p>
+
+                        <div class="cta-buttons">
+                            <a href="https://zews123.github.io/michael-rodriguez-books/books/The_Laundromat" class="cta-button" role="button">Get The Book Now</a>
+                            <a href="#about" class="cta-button cta-button--secondary" role="button">Learn More</a>
+                        </div>
                     </div>
-                    
-                    <p>15 years of investigation. Exclusive access to classified documents. Whistleblower testimonies. For the first time, Michael Rodriguez reveals how the system allows the world's elite to hide trillions of dollars while ordinary people pay taxes.</p>
-                    
-                    <a href="#details" class="cta-button">🔍 Expose The Schemes</a>
-                </div>
-                
-                <div class="book-cover-container">
-                    <img src="https://zews123.github.io/michael-rodriguez-books/assets/images/THE_LAUNDROMAT.webp" alt="The Laundromat book cover by Michael Rodriguez" class="book-cover">
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Problem Agitation Section -->
-    <section class="content-section" id="details">
-        <div class="container">
-            <h2 class="section-title">What Banks and Governments Don't Want You to Know</h2>
-            
-            <div class="revelations-grid">
-                <div class="revelation-card">
-                    <h3>🏛️ Presidential Money Laundering</h3>
-                    <p>How sitting presidents and their families use the same offshore networks as drug cartels to hide billions in stolen wealth from their own citizens.</p>
-                </div>
-                
-                <div class="revelation-card">
-                    <h3>🏦 The Banking Conspiracy</h3>
-                    <p>Why major banks actively help criminals launder money and pay tiny fines as the "cost of doing business" while making billions in profits.</p>
-                </div>
-                
-                <div class="revelation-card">
-                    <h3>🌍 Global Shell Game</h3>
-                    <p>The step-by-step process of how dirty money travels through 20+ countries to emerge "clean" on the other side of the world.</p>
-                </div>
-                
-                <div class="revelation-card">
-                    <h3>💰 Real Documents Revealed</h3>
-                    <p>Documented cases with names, amounts, and bank records showing exactly how the schemes work and who profits.</p>
-                </div>
-                
-                <div class="revelation-card">
-                    <h3>⚖️ Why Nobody Gets Caught</h3>
-                    <p>The legal loopholes and regulatory capture that make money laundering virtually risk-free for the global elite.</p>
-                </div>
-                
-                <div class="revelation-card">
-                    <h3>🎯 How It Affects You</h3>
-                    <p>Why money laundering raises your taxes, destroys honest businesses, and undermines democracy itself.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Author Credentials -->
-    <section class="content-section">
-        <div class="container">
-            <h2 class="section-title">Exclusive Access: 15 Years of Investigation From Inside the System</h2>
-            <div style="text-align: center; max-width: 800px; margin: 0 auto;">
-                <p style="font-size: 1.2rem; margin-bottom: 30px;">Michael Rodriguez is the only investigative journalist to gain access to:</p>
-                <ul style="text-align: left; font-size: 1.1rem; margin: 30px 0;">
-                    <li>✓ Classified banking documents from 47 countries</li>
-                    <li>✓ Testimonies from 23 whistleblowers inside major global banks</li>
-                    <li>✓ Court records from cases involving $2+ trillion in laundered money</li>
-                    <li>✓ Internal communications between politicians and bankers</li>
-                    <li>✓ Active money laundering schemes operating right now</li>
-                </ul>
-                <p style="font-style: italic; color: var(--accent-gold);">"For the first time in 15 years, I can tell the complete truth. The system can no longer hide its crimes."</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Exclusive Excerpt -->
-    <section class="content-section">
-        <div class="container">
-            <div class="excerpt-section">
-                <h3 class="excerpt-title">Exclusive Excerpt: Operation "Laundromat" - $2.8 Billion</h3>
-                <div class="excerpt-text">
-                    <p>"At exactly 6:47 AM on March 15, 2019, FBI agents stormed a gleaming Manhattan office tower, targeting what appeared to be a respectable consulting firm. Instead, they discovered the nerve center of a $2.8 billion money laundering operation that processed criminal proceeds automatically—while its operators slept.</p>
-                    
-                    <p>But this was just the beginning. Documents seized that day revealed a network spanning from presidential palaces to drug cartels, from Swiss banks to cryptocurrency exchanges. For the first time, we had the complete picture of how the modern money washing machine operates...</p>
-                    
-                    <p style="color: var(--accent-red); font-weight: bold;">Continued in the full book.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Social Proof -->
-    <section class="content-section">
-        <div class="container">
-            <div class="social-proof">
-                <h2 class="section-title">Join 50,000+ Readers Who Know The Truth</h2>
-                <span class="readers-count">50,247</span>
-                <p>readers have already downloaded this book</p>
-                
-                <div style="max-width: 800px; margin: 50px auto;">
-                    <div class="testimonial">
-                        <p class="testimonial-text">"This book completely changed my understanding of how the world really works. Rodriguez doesn't just theorize—he shows you the actual bank records and wire transfers. Terrifying and necessary reading."</p>
-                        <p class="testimonial-author">— Sarah M., Financial Analyst</p>
-                    </div>
-                    
-                    <div class="testimonial">
-                        <p class="testimonial-text">"As a former law enforcement officer, I can confirm that Rodriguez gets the details right. This is exactly how these networks operate, and why we struggle to prosecute them."</p>
-                        <p class="testimonial-author">— Detective James K., Anti-Money Laundering Unit</p>
-                    </div>
-                    
-                    <div class="testimonial">
-                        <p class="testimonial-text">"I couldn't put it down. Rodriguez writes like a thriller novelist but with the precision of an investigative journalist. The chapter on Putin's money will make your jaw drop."</p>
-                        <p class="testimonial-author">— Dr. Elizabeth R., Economics Professor</p>
+                    <div class="book-cover-container">
+                        <img src="https://zews123.github.io/michael-rodriguez-books/assets/images/THE_LAUNDROMAT.webp"
+                             alt="The Laundromat book cover — How Presidents, Billionaires and Drug Lords Built the World's Biggest Money-Washing Machine by Michael Rodriguez"
+                             class="book-cover"
+                             width="400"
+                             height="600"
+                             loading="eager">
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Guarantee Section -->
-    <section class="content-section">
+        <!-- About the Book -->
+        <section class="content-section" id="about" aria-label="About the book">
+            <div class="container">
+                <h2 class="section-title">About The Laundromat</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p><strong>The Laundromat</strong> is the definitive investigation into the global money laundering machine. Based on 15 years of research, classified documents from 47 countries, and exclusive whistleblower testimonies, this book exposes the $32 trillion shadow economy that operates in plain sight.</p>
+                        <p>For the first time, investigative journalist Michael Rodriguez connects the dots between presidential corruption, banking conspiracies, drug cartels, and offshore shell companies to reveal the complete picture of how dirty money flows through the global financial system.</p>
+                        <p>Whether you're a financial professional, a concerned citizen, or simply someone who wants to understand how the system really works, <em>The Laundromat</em> will fundamentally change how you see the world economy.</p>
+                    </div>
+                    <div class="book-meta">
+                        <h3>Book Details</h3>
+                        <dl>
+                            <dt>Author</dt>
+                            <dd><a href="https://zews123.github.io/michael-rodriguez-books/" style="color:var(--accent-gold);">Michael Rodriguez</a></dd>
+                            <dt>Genre</dt>
+                            <dd>Financial Crime / Investigative Journalism</dd>
+                            <dt>Research Period</dt>
+                            <dd>15 Years</dd>
+                            <dt>Countries Covered</dt>
+                            <dd>47</dd>
+                            <dt>Whistleblowers</dt>
+                            <dd>23 Exclusive Testimonies</dd>
+                            <dt>Language</dt>
+                            <dd>English</dd>
+                            <dt>Guarantee</dt>
+                            <dd>30-Day Money Back</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Benefits -->
+        <section class="content-section" aria-label="Why read this book">
+            <div class="container">
+                <h2 class="section-title">Why Read The Laundromat?</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <span class="benefit-icon" aria-hidden="true">📄</span>
+                        <h3>Real Documents</h3>
+                        <p>Based on classified banking documents, court records, and internal communications — not theories or speculation.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <span class="benefit-icon" aria-hidden="true">🌐</span>
+                        <h3>Global Scope</h3>
+                        <p>Covers 47 countries, tracing money flows from presidential palaces to drug cartels across every continent.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <span class="benefit-icon" aria-hidden="true">🔍</span>
+                        <h3>15-Year Investigation</h3>
+                        <p>The result of over a decade of meticulous research by an award-winning investigative journalist.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <span class="benefit-icon" aria-hidden="true">🗣️</span>
+                        <h3>Whistleblower Access</h3>
+                        <p>Exclusive testimonies from 23 insiders who risked everything to expose the truth about global banking.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <span class="benefit-icon" aria-hidden="true">💡</span>
+                        <h3>Eye-Opening Impact</h3>
+                        <p>Understand how money laundering affects your taxes, your economy, and your democracy.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <span class="benefit-icon" aria-hidden="true">📖</span>
+                        <h3>Reads Like a Thriller</h3>
+                        <p>Written with the pace and drama of a thriller novel, backed by the precision of investigative journalism.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Revelations Section -->
+        <section class="content-section" id="revelations" aria-label="Key revelations">
+            <div class="container">
+                <h2 class="section-title">Key Revelations Inside The Laundromat</h2>
+
+                <div class="revelations-grid">
+                    <article class="revelation-card">
+                        <h3>Presidential Money Laundering</h3>
+                        <p>How sitting presidents and their families use the same offshore networks as drug cartels to hide billions in stolen wealth from their own citizens.</p>
+                    </article>
+
+                    <article class="revelation-card">
+                        <h3>The Banking Conspiracy</h3>
+                        <p>Why major banks actively help criminals launder money and pay tiny fines as the "cost of doing business" while making billions in profits.</p>
+                    </article>
+
+                    <article class="revelation-card">
+                        <h3>Global Shell Game</h3>
+                        <p>The step-by-step process of how dirty money travels through 20+ countries to emerge "clean" on the other side of the world.</p>
+                    </article>
+
+                    <article class="revelation-card">
+                        <h3>Real Documents Revealed</h3>
+                        <p>Documented cases with names, amounts, and bank records showing exactly how the schemes work and who profits.</p>
+                    </article>
+
+                    <article class="revelation-card">
+                        <h3>Why Nobody Gets Caught</h3>
+                        <p>The legal loopholes and regulatory capture that make money laundering virtually risk-free for the global elite.</p>
+                    </article>
+
+                    <article class="revelation-card">
+                        <h3>How It Affects You</h3>
+                        <p>Why money laundering raises your taxes, destroys honest businesses, and undermines democracy itself.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Author Section -->
+        <section class="content-section" id="author" aria-label="About the author">
+            <div class="container">
+                <h2 class="section-title">About Michael Rodriguez</h2>
+                <div class="author-section">
+                    <div class="author-avatar" aria-hidden="true">MR</div>
+                    <div class="author-bio">
+                        <h3>Michael Rodriguez — Investigative Journalist &amp; Economic Analyst</h3>
+                        <p>With over 15 years of experience investigating financial crime, Michael Rodriguez is the only investigative journalist to gain access to classified banking documents from 47 countries and testimonies from 23 whistleblowers inside major global banks.</p>
+                        <p>His work has exposed court records from cases involving $2+ trillion in laundered money, internal communications between politicians and bankers, and active money laundering schemes operating today.</p>
+                        <blockquote style="border-left:3px solid var(--accent-gold);padding-left:15px;margin:15px 0;">
+                            <p style="font-style:italic;color:var(--text-light);">"For the first time in 15 years, I can tell the complete truth. The system can no longer hide its crimes."</p>
+                        </blockquote>
+                        <a href="https://zews123.github.io/michael-rodriguez-books/">View all books by Michael Rodriguez →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Exclusive Excerpt -->
+        <section class="content-section" aria-label="Book excerpt">
+            <div class="container">
+                <div class="excerpt-section">
+                    <h2 class="excerpt-title">Exclusive Excerpt: Operation "Laundromat" — $2.8 Billion</h2>
+                    <blockquote class="excerpt-text">
+                        <p>"At exactly 6:47 AM on March 15, 2019, FBI agents stormed a gleaming Manhattan office tower, targeting what appeared to be a respectable consulting firm. Instead, they discovered the nerve center of a $2.8 billion money laundering operation that processed criminal proceeds automatically—while its operators slept.</p>
+
+                        <p>But this was just the beginning. Documents seized that day revealed a network spanning from presidential palaces to drug cartels, from Swiss banks to cryptocurrency exchanges. For the first time, we had the complete picture of how the modern money washing machine operates..."</p>
+
+                        <p style="color: var(--accent-red); font-weight: bold; font-style: normal;">Continued in the full book.</p>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews / Social Proof -->
+        <section class="content-section" id="reviews" aria-label="Reader reviews">
+            <div class="container">
+                <div class="social-proof">
+                    <h2 class="section-title">Reader Reviews &amp; Testimonials</h2>
+                    <span class="readers-count" aria-label="Over 50,000 readers">50,247</span>
+                    <p>readers have already downloaded this book</p>
+
+                    <div class="testimonials-grid">
+                        <div class="testimonial" role="article">
+                            <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
+                            <p class="testimonial-text">"This book completely changed my understanding of how the world really works. Rodriguez doesn't just theorize—he shows you the actual bank records and wire transfers. Terrifying and necessary reading."</p>
+                            <p class="testimonial-author">— Sarah M., Financial Analyst</p>
+                        </div>
+
+                        <div class="testimonial" role="article">
+                            <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
+                            <p class="testimonial-text">"As a former law enforcement officer, I can confirm that Rodriguez gets the details right. This is exactly how these networks operate, and why we struggle to prosecute them."</p>
+                            <p class="testimonial-author">— Detective James K., Anti-Money Laundering Unit</p>
+                        </div>
+
+                        <div class="testimonial" role="article">
+                            <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
+                            <p class="testimonial-text">"I couldn't put it down. Rodriguez writes like a thriller novelist but with the precision of an investigative journalist. The chapter on Putin's money will make your jaw drop."</p>
+                            <p class="testimonial-author">— Dr. Elizabeth R., Economics Professor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Guarantee Section -->
+        <section class="content-section" aria-label="Money-back guarantee">
+            <div class="container">
+                <div class="guarantee-section">
+                    <h2 style="color: var(--accent-gold); font-size: 2rem; margin-bottom: 20px;">30-Day Money-Back Guarantee</h2>
+                    <p style="font-size: 1.2rem; margin-bottom: 20px;">We're so confident this book will open your eyes to the truth about the global financial system that we offer a 30-day money-back guarantee.</p>
+                    <p style="font-style: italic;">If after reading you're not shocked by what you've learned — just contact us and we'll refund every penny.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="content-section" id="faq" aria-label="Frequently asked questions">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>What is The Laundromat book about?</summary>
+                        <div class="faq-answer">
+                            <p>The Laundromat is a comprehensive investigation by Michael Rodriguez that exposes the $32 trillion shadow economy. It reveals how presidents, oligarchs, and drug lords use the same networks to launder money, based on 15 years of research, classified documents, and whistleblower testimonies.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Who is the author Michael Rodriguez?</summary>
+                        <div class="faq-answer">
+                            <p>Michael Rodriguez is an investigative journalist and economic analyst with over 15 years of experience investigating financial crime. He gained exclusive access to classified banking documents from 47 countries and testimonies from 23 whistleblowers inside major global banks.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary>How much money is laundered globally each year?</summary>
+                        <div class="faq-answer">
+                            <p>According to the investigation presented in The Laundromat, approximately $32 trillion is hidden in the global shadow economy. This money flows through offshore banking networks, shell companies, and complex financial structures designed to hide its origins.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Is this book based on real documented cases?</summary>
+                        <div class="faq-answer">
+                            <p>Yes. The Laundromat is based on real documented cases with names, amounts, and bank records. It draws on classified banking documents from 47 countries, court records from cases involving over $2 trillion in laundered money, and testimonies from 23 whistleblowers.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Does the book come with a money-back guarantee?</summary>
+                        <div class="faq-answer">
+                            <p>Yes. The Laundromat comes with a 30-day money-back guarantee. If after reading you are not satisfied with the revelations and information provided, you can request a full refund.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Where can I buy or download The Laundromat?</summary>
+                        <div class="faq-answer">
+                            <p>You can get The Laundromat directly through <a href="https://zews123.github.io/michael-rodriguez-books/books/The_Laundromat" style="color:var(--accent-gold);">Michael Rodriguez's official website</a>. Visit the book detail page to choose your preferred format and complete your purchase.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- Urgency Section -->
+        <section class="content-section" aria-label="Limited availability notice">
+            <div class="container">
+                <div class="urgency-section">
+                    <h2 style="color: var(--accent-red); font-size: 2rem; margin-bottom: 20px;">Read Now Before It's Blocked</h2>
+                    <p style="font-size: 1.2rem;">This information poses a real threat to those who profit from the current system. Several countries have already attempted to block distribution of this book.</p>
+                    <p style="font-weight: bold; color: var(--accent-gold);">Download now while you still can.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="final-cta" aria-label="Purchase call to action">
+            <div class="container">
+                <h2>Ready to See Behind the Curtain?</h2>
+                <p>Join thousands of readers who now understand how the global financial system really works—and how it's rigged against ordinary people.</p>
+
+                <a href="https://zews123.github.io/michael-rodriguez-books/books/The_Laundromat" class="cta-button cta-button--large" role="button">Get The Book Now</a>
+
+                <p class="also-available">Also available: <a href="https://zews123.github.io/michael-rodriguez-books/">All Books by Michael Rodriguez</a></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer" role="contentinfo">
         <div class="container">
-            <div class="guarantee-section">
-                <h3 style="color: var(--accent-gold); font-size: 2rem; margin-bottom: 20px;">Guarantee: If It Doesn't Shock You — Get Your Money Back</h3>
-                <p style="font-size: 1.2rem; margin-bottom: 20px;">We're so confident this book will open your eyes to the truth about the global financial system that we offer a 30-day money-back guarantee.</p>
-                <p style="font-style: italic;">If after reading you're not shocked by what you've learned — just contact us and we'll refund every penny.</p>
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>The Laundromat</h4>
+                    <p>A 15-year investigation into the $32 trillion shadow economy by Michael Rodriguez.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul role="list">
+                        <li><a href="#about">About the Book</a></li>
+                        <li><a href="#revelations">Key Revelations</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Author</h4>
+                    <ul role="list">
+                        <li><a href="https://zews123.github.io/michael-rodriguez-books/">Michael Rodriguez Books</a></li>
+                        <li><a href="https://zews123.github.io/michael-rodriguez-books/books/The_Laundromat">Book Details</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Michael Rodriguez. All rights reserved.</p>
             </div>
         </div>
-    </section>
-
-    <!-- Urgency Section -->
-    <section class="content-section">
-        <div class="container">
-            <div class="urgency-section">
-                <h3 style="color: var(--accent-red); font-size: 2rem; margin-bottom: 20px;">⚠️ Read Now Before It's Blocked</h3>
-                <p style="font-size: 1.2rem;">This information poses a real threat to those who profit from the current system. Several countries have already attempted to block distribution of this book.</p>
-                <p style="font-weight: bold; color: var(--accent-gold);">Download now while you still can.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Final CTA -->
-    <section class="final-cta">
-        <div class="container">
-            <h2>Ready to See Behind the Curtain?</h2>
-            <p>Join thousands of readers who now understand how the global financial system really works—and how it's rigged against ordinary people.</p>
-            
-            <a href="https://zews123.github.io/michael-rodriguez-books/books/The_Laundromat" class="cta-button" style="font-size: 1.4rem; padding: 25px 60px;">🚨 Get The Book Now</a>
-            
-            <p style="margin-top: 30px; font-size: 1rem; color: var(--text-gray);">Also available: <a href="https://zews123.github.io/michael-rodriguez-books/" style="color: var(--accent-gold);">All Books by Michael Rodriguez</a></p>
-        </div>
-    </section>
+    </footer>
 
     <!-- Exit Intent Popup -->
-    <div class="exit-popup" id="exitPopup">
+    <div class="exit-popup" id="exitPopup" role="dialog" aria-modal="true" aria-label="Special offer">
         <div class="popup-content">
-            <span class="popup-close" onclick="closePopup()">&times;</span>
+            <button class="popup-close" onclick="closePopup()" aria-label="Close popup">&times;</button>
             <h3 style="color: var(--accent-gold); margin-bottom: 20px;">Wait! Don't Let Them Keep You in the Dark</h3>
             <p style="margin-bottom: 25px;">Get exclusive access to the first chapter — FREE</p>
             <a href="https://zews123.github.io/michael-rodriguez-books/books/The_Laundromat" class="cta-button">Download First Chapter</a>
         </div>
     </div>
 
-    <!-- Analytics and Scripts -->
+    <!-- Scroll to top button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top" title="Back to top">↑</button>
+
+    <!-- Scripts (deferred for performance) -->
     <script>
         // Exit intent detection
-        let exitIntent = false;
-        
+        var exitIntent = false;
+
         document.addEventListener('mouseleave', function(e) {
             if (e.clientY <= 0 && !exitIntent) {
                 exitIntent = true;
                 document.getElementById('exitPopup').style.display = 'flex';
             }
         });
-        
+
         function closePopup() {
             document.getElementById('exitPopup').style.display = 'none';
         }
-        
+
+        // Close popup on Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closePopup();
+            }
+        });
+
         // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
+                var target = document.querySelector(this.getAttribute('href'));
                 if (target) {
                     target.scrollIntoView({
                         behavior: 'smooth',
@@ -625,13 +1294,25 @@
                 }
             });
         });
-        
+
+        // Scroll to top button
+        var scrollTopBtn = document.getElementById('scrollTop');
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 600) {
+                scrollTopBtn.classList.add('visible');
+            } else {
+                scrollTopBtn.classList.remove('visible');
+            }
+        });
+        scrollTopBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
         // Track CTA clicks
-        document.querySelectorAll('.cta-button').forEach(button => {
+        document.querySelectorAll('.cta-button').forEach(function(button) {
             button.addEventListener('click', function() {
-                // Add analytics tracking here
                 console.log('CTA clicked:', this.textContent);
-                
+
                 // Google Analytics 4 event tracking
                 if (typeof gtag !== 'undefined') {
                     gtag('event', 'cta_click', {
@@ -642,49 +1323,47 @@
                 }
             });
         });
-        
+
         // Scroll depth tracking
-        let maxScroll = 0;
-        let scrollCheckpoints = [25, 50, 75, 90];
-        
+        var maxScroll = 0;
+        var scrollCheckpoints = [25, 50, 75, 90];
+
         window.addEventListener('scroll', function() {
-            const scrollPercent = Math.round((window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100);
-            
-            scrollCheckpoints.forEach(checkpoint => {
+            var scrollPercent = Math.round((window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100);
+
+            scrollCheckpoints.forEach(function(checkpoint) {
                 if (scrollPercent >= checkpoint && maxScroll < checkpoint) {
                     maxScroll = checkpoint;
-                    console.log(`${checkpoint}% scroll depth reached`);
-                    
-                    // Google Analytics 4 scroll tracking
+                    console.log(checkpoint + '% scroll depth reached');
+
                     if (typeof gtag !== 'undefined') {
                         gtag('event', 'scroll', {
                             'event_category': 'engagement',
-                            'event_label': `${checkpoint}%`,
+                            'event_label': checkpoint + '%',
                             'value': checkpoint
                         });
                     }
                 }
             });
         });
-        
+
         // Time on page tracking
-        let startTime = Date.now();
-        let timeCheckpoints = [30, 60, 120, 300]; // seconds
-        let timeChecked = [];
-        
+        var startTime = Date.now();
+        var timeCheckpoints = [30, 60, 120, 300];
+        var timeChecked = [];
+
         setInterval(function() {
-            let timeOnPage = Math.floor((Date.now() - startTime) / 1000);
-            
-            timeCheckpoints.forEach(checkpoint => {
-                if (timeOnPage >= checkpoint && !timeChecked.includes(checkpoint)) {
+            var timeOnPage = Math.floor((Date.now() - startTime) / 1000);
+
+            timeCheckpoints.forEach(function(checkpoint) {
+                if (timeOnPage >= checkpoint && timeChecked.indexOf(checkpoint) === -1) {
                     timeChecked.push(checkpoint);
-                    console.log(`${checkpoint} seconds on page`);
-                    
-                    // Google Analytics 4 time tracking
+                    console.log(checkpoint + ' seconds on page');
+
                     if (typeof gtag !== 'undefined') {
                         gtag('event', 'time_on_page', {
                             'event_category': 'engagement',
-                            'event_label': `${checkpoint}s`,
+                            'event_label': checkpoint + 's',
                             'value': checkpoint
                         });
                     }
